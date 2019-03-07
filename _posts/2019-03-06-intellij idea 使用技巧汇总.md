@@ -8,6 +8,7 @@ header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - intellij idea
+    - 开发工具
 ---
 ### intellij idea 安装
 
