@@ -30,6 +30,10 @@ File->Settings->Maven
 File->Settings->version controll->git
 ![image](https://nine-free.github.io/img/idea-settings-git.jpg)
 
+##### tomcat配置
+File->Settings->application server
+![image](https://nine-free.github.io/img/idea-settings-tomcat.jpg)
+
 ###  优化配置
 
 ##### 代码编辑器主题风格
@@ -41,7 +45,11 @@ File->Import Settings 选择下载的主题即可
 File->Settings->Editor->Color&Font->Font->Scheme
 ![image](https://nine-free.github.io/img/idea-settings-scheme.jpg)
 特别贡献一下自己使用的字体包[百度网盘](https://pan.baidu.com/s/1ePTvWc0ajWSIatgrgmvGPg) 提取码：hw5b
-                  
+
+3、markdown插件
+File->Settings->Plugins搜索markdown
+![image](https://nine-free.github.io/img/idea-settings-plugins.jpg)
+
 ##### 文件编码设置
 建议将编码设置UTF-8
 File->Settings->Editor->File Encodings
