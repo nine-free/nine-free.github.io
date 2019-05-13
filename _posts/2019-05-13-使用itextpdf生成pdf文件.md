@@ -11,7 +11,6 @@ tags:
 ---
 
 ## 汇总一些pdf tools
-
 生成pdf有多种方法，这里demo一个通过变量填充带表单的pdf模板的方法，相对比较简单，也比较干净（相对于一个一个元素的拼接出来一个pdf文件）
 
 ## 适用场景
@@ -19,7 +18,7 @@ tags:
 
 ## maven依赖
 ```
- <dependency>
+        <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itextpdf</artifactId>
             <version>5.4.3</version>
@@ -32,12 +31,12 @@ tags:
 ```
 
 ## 步骤
-1、需求方提供模板 如：test.docx
+#### 1、需求方提供模板 如：test.docx
 ![image](http://soft1010.top/img/pdf-template-word.png)
-2、使用office打开之后保存为test.pdf
-3、使用adobe Acrobat 添加表单test_form.pdf
+#### 2、使用office打开之后保存为test.pdf
+#### 3、使用adobe Acrobat 添加表单test_form.pdf
 ![image](http://soft1010.top/img/pdf-template-form.png)
-4、使用工具类中使用test_form.pdf填充表单 
+#### 4、使用工具类填充模板文件 test_form.pdf 
 示例中支持文本框、checkbox、radio、插入图片，添加水印的话，google一下会有很多现成的代码
 
 ## 注意点
