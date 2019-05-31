@@ -13,7 +13,7 @@ tags:
 
 ## spring mvc核心原理 
 直接上图（不知道哪个大神的运行流程图，盗来用一下）
-![image](http://soft1010.top/img/spring-mvc-1.jpg)
+![image](http://soft1010.top/img/spring-mvc-1.png)
 简单聊两句：核心原理就在于DispatcherServlet继承HttpServlet,这就相当于一个大的HttpServlet。
 跟配置HttpServlet一样在web.xml配置DispatcherServlet。然后handlerMapping这个映射器根据请求uri映射到Controller.Method
 当然还有好多其他组件但是这是最核心的原理。
